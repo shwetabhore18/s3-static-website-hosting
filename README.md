@@ -35,6 +35,7 @@ Amazon S3 Bucket (Static Website)
 ---
 
 <img src="screenshots/overview.png" width="600">
+
 ---
 
 ### Configured Bucket Policy
@@ -54,6 +55,10 @@ Added policy to allow public read access:
     }
   ]
 }
+```
+
+This allowed public users to access website files.
+
 ---
 
 ## 📦 Storage Class Selection
@@ -114,8 +119,4 @@ Versioning was enabled to:
 
 <img src="screenshots/versioning.png" width="600">
 
-## 🚀 Future Improvements
 
-- Add CloudFront for CDN
-- Configure HTTPS
-- Attach custom domain using Route 53
