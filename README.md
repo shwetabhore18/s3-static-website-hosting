@@ -61,6 +61,9 @@ Resolution:
 
 The static website is successfully hosted and accessible via S3 endpoint URL.
 
+<h3>✅ Final Website Output</h3>
+<img src="screenshots/output.png" width="600">
+
 ---
 
 ## 🚀 Future Improvements
