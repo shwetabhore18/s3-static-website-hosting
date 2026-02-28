@@ -19,7 +19,7 @@ The website was developed locally and deployed to AWS S3 using static website ho
 
 User Browser  
 ↓  
-Amazon S3 Bucket (Static Website Hosting Enabled)
+Amazon S3 Bucket (Static Website)
 
 ---
 
@@ -28,9 +28,10 @@ Amazon S3 Bucket (Static Website Hosting Enabled)
 1. Created an S3 bucket
 2. Disabled Block Public Access
 3. Uploaded website files (index.html, style.css, profile.jpg)
-4. Enabled Static Website Hosting
-5. Configured Bucket Policy to allow public read access
-6. Accessed website using S3 endpoint URL
+4. Enable Make public using ACL
+5. Enabled Static Website Hosting
+6. Configured Bucket Policy to allow public read access
+7. Accessed website using S3 endpoint URL
 
 ---
 
@@ -42,6 +43,16 @@ Reason:
 Used for frequently accessed website content with high availability and durability.
 
 ---
+
+## 🔄 Versioning Implementation
+
+Versioning was enabled to:
+
+- Maintain multiple versions of same objects
+- Protect against accidental deletion
+- Rollback to previous version
+- Improve data durability
+
 
 ## ⚠️ Issue Faced & Resolved
 
